@@ -1,0 +1,155 @@
+* {
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    padding-left:20px;
+}
+
+#navbar {
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+#navbar-buttons {
+    gap: 10px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/delivery-man1.jpg);
+    background-size: cover;
+    background-position: 40% 10%;
+    padding: 10px;
+    height: 50vh;
+}
+
+.separator-bar {
+    display: block;
+    align-self: center;
+    width: 20vh;
+    margin: 0% auto;
+    height: 2px;
+    background-color: dodgerblue;
+}
+
+#text-top {
+    padding: 30px;
+    gap: 50px;
+    text-align:center;
+    color: white;
+}
+
+.heading-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.header-btn {
+    border-radius: 25px;
+}
+
+.big-box {
+    display: flex;
+    max-width: 1140px;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.big-box > h1 {
+    text-align: center;
+}
+
+.box {
+    zoom: 1;
+    display: table;
+    width: 30%;
+    padding: 20px;
+}
+
+.heading2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 500px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.stk {
+    background-color: rgb(238, 238, 238);
+}
+
+#foot-section {
+    padding: 50px 0;
+    flex-direction: row;
+}
+#foot > li > a {
+    color: white !important;
+}
+/*
+.heading-guide {
+    width: 100%;
+    text-align: center;
+}
+
+.guide-text {
+    display: flex;
+    align-items: center;
+}
+
+.guide-text > h1 {
+    padding: 30px;
+}
+
+.guide-info {
+    padding: 30px;
+    width: 100vh;
+    margin: 0 auto;
+}
+*/
+@media only screen and (min-width: 768px) {
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/delivery-man1.jpg);
+        background-size: cover;
+        background-position: 0% 10%;
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box {
+        zoom: 1;
+        display: table;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .big-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+    }
+}
